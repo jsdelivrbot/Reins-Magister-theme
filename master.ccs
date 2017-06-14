@@ -1,5 +1,5 @@
-@import url("https://raw.githubusercontent.com/Gamerein/Reins-Magister-theme/master/r-magister.css");
-/*@import url("https://raw.githubusercontent.com/Gamerein/Reins-Magister-theme/Beta/r-magister-beta.css");*/ -Beta
+@import url("https://gitcdn.xyz/repo/Gamerein/Reins-Magister-theme/master/r-magister.css");
+/*@import url("https://gitcdn.xyz/repo/Gamerein/Reins-Magister-theme/Beta/r-magister-beta.css");*/ /*-Beta*/
 
 /*user settings*/
 :root{
