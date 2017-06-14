@@ -3,7 +3,7 @@
 
 /*user settings*/
 :root{
-  --background: url("https://github.com/Gamerein/Reins-Magister-theme/blob/master/default-background.jpg");
+  --background: url("https://github.com/Gamerein/Reins-Magister-theme/raw/master/default-background.jpg");
   --button-color: #404040;
   --button-hover: #262626;
   --border-color: #FFF;
