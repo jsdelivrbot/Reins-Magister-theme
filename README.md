@@ -9,7 +9,6 @@ Open the extention <br />
 Paste the code<br />
 
 # Todo:
-* Make master file
 * Make nav bar nicer with hover effects
 * rmv blue arrow in cijfers
 * fix head-bar on account page, and change text to show theme
