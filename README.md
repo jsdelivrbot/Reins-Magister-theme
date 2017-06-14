@@ -1,5 +1,5 @@
 # Reins-Magister-theme
 New stylesheet for Magister!
 
-#Todo:
-*Make master file
+# Todo:
+* Make master file
