@@ -23,25 +23,25 @@
 }
 
 .account-dialog .title {
-  background-color: #333;
+  background-color: var(--button-color);
 }
 
 .btn-primary3 {
-  background-color: #333;
-  border: 0px solid white;
+  background-color: var(--button-color);
+  border: 0px solid var(--border-color);
   border-radius: 10px;
   font-weight: bold !important;
 }
 
 .btn-primary3:hover {
-  background-color: #262626;
+  background-color: var(--button-hover);
 }
 
 
 a.secondary-button {
   color: #FFF;
   text-decoration: none;
-  background-color: #333;
+  background-color: var(--button-color);
   border-radius: 5px;
   padding: 8px;
   height: 30px;
@@ -60,11 +60,27 @@ a.secondary-button:hover{
   
 .version.ng-isolate-scope > span.ng-binding {
   position: absolute;
-  width: 70px;
+  visibility: hidden;
   box-sizing: border-box;
-  left: 500%;
+  width: 300px !important;
+  left: 400%;
+  top: 200%;
 }
 
+span.ng-binding::after {
+    /* box-sizing: border-box; */
+    visibility: visible;
+    content: "Reins Magister theme: V1!";
+    font-weight: bold;
+    /* position: relative; */
+    padding: 5px;
+    margin-left: 10px;
+    /* line-height: 20px; */
+    /* height: 30px; */
+    background-color: var(--button-hover);
+    border-radius: 20px;
+}
+  
 .version.ng-isolate-scope > strong.ng-binding {
   position: absolute;
   width:400%;
@@ -82,7 +98,7 @@ body {
 }
 
 .asideTrigger.trigger-btn {
-border-left: 0px solid white !important;
+border-left: 0px solid var(--border-color) !important;
 }
  span.text-icon{
   background-color: #333 !important;
@@ -93,7 +109,7 @@ span.text-icon.ng-scope {
 }
 
 aside .asideTrigger:after{
-  border-color: #262626 rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) !important;
+  border-color: var(--button-hover) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) !important;
 }
 
 li.ng-scope.asideTrigger.active a.ng-binding{
