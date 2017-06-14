@@ -1,0 +1,10 @@
+@import: url(https://raw.githubusercontent.com/Gamerein/Reins-Magister-theme/master/r-magister.css);
+/*@import: url(https://raw.githubusercontent.com/Gamerein/Reins-Magister-theme/Beta/r-magister-beta.css);*/ -Beta
+
+/*user settings*/
+:root{
+  --background: default-background.jpg;
+  --button-color: #404040;
+  --button-hover: #262626;
+  --border-color: #FFF;
+}
