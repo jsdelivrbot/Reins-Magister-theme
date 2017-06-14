@@ -1,0 +1,247 @@
+:root{
+  --background: url("https://github.com/Gamerein/Reins-Magister-theme/raw/master/default-background.jpg");
+  --button-color: #404040;
+  --button-hover: #262626;
+  --border-color: #FFF;
+}
+
+/*login*/
+
+.account-background1 {
+    background-image: var(--background)!important;
+    background-size: cover;
+}
+
+.account-background2 {
+    background-image: url(https://wallpapershome.com/images/pages/pic_hs/10121.jpg)!important;
+    background-size: cover;
+}
+
+.account-background3 {
+    background-image: url(https://wallpapershome.com/images/pages/pic_hs/10121.jpg)!important;
+    background-size: cover;
+}
+
+.account-dialog .title {
+  background-color: var(--button-color);
+}
+
+.btn-primary3 {
+  background-color: var(--button-color);
+  border: 0px solid var(--border-color);
+  border-radius: 10px;
+  font-weight: bold !important;
+}
+
+.btn-primary3:hover {
+  background-color: var(--button-hover);
+}
+
+
+a.secondary-button {
+  color: #FFF;
+  text-decoration: none;
+  background-color: var(--button-color);
+  border-radius: 5px;
+  padding: 8px;
+  height: 30px;
+  line-height: 15px;
+}
+
+a.secondary-button:hover{
+  background-color: #262626;
+  border-radius: 5px;
+  color: #FFF;
+}
+
+.text-icon[icon-type="error"] {
+    border: 2px solid #be2f37;
+}
+  
+.version.ng-isolate-scope > span.ng-binding {
+  position: absolute;
+  visibility: hidden;
+  box-sizing: border-box;
+  width: 300px !important;
+  left: 400%;
+  top: 200%;
+}
+
+span.ng-binding::after {
+    /* box-sizing: border-box; */
+    visibility: visible;
+    content: "Reins Magister theme: V1!";
+    font-weight: bold;
+    /* position: relative; */
+    padding: 5px;
+    margin-left: 10px;
+    /* line-height: 20px; */
+    /* height: 30px; */
+    background-color: var(--button-hover);
+    border-radius: 20px;
+}
+  
+.version.ng-isolate-scope > strong.ng-binding {
+  position: absolute;
+  width:400%;
+  box-sizing: border-box;
+  left: 110%;
+}
+
+/* end of login */
+body {
+  background-color: #333 !important;
+}
+
+.header-user img {
+    border-radius: 5px;
+}
+
+.asideTrigger.trigger-btn {
+border-left: 0px solid var(--border-color) !important;
+}
+ span.text-icon{
+  background-color: #333 !important;
+}
+
+span.text-icon.ng-scope {
+  background-color: #333;
+}
+
+aside .asideTrigger:after{
+  border-color: var(--button-hover) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) !important;
+}
+
+li.ng-scope.asideTrigger.active a.ng-binding{
+  background-color:  #262626 !important;
+}
+
+.icon-logo{
+ position: relative;
+ bottom: 3px;
+}
+
+.logo > a {
+  border: 0px solid #FFF !important;
+}
+
+.logo {
+  padding: 0px 5px;
+  line-height: 40px !important;
+  box-sizing: border-box;
+  height: 40px;
+}
+
+.logo:hover{
+  background-color: #404040;
+  border-radius: 5px;
+}
+
+.icon-recyclebin{
+  position: relative;
+  bottom: 5px
+}
+
+.icon-plus {
+  position: relative;
+  bottom: 5px
+}
+
+.header a {
+  border-left: 2px solid #FFF
+}
+
+.header{
+  position: absolute;
+  background-color: rgba(51, 51, 51, 0.0);
+  border-bottom: 2px solid #FFF;
+}
+
+.menu > ul {
+  margin-top: 0px;
+  box-sizing: border-box;
+  padding-top: 40px;
+  border-top: 0px solid white;
+  width: 40px;
+}
+
+.menu {
+  position: absolute;
+  top: 18px;
+  border-radius: 5px;
+  background-color: rgba(51, 51, 51, 0.0) !important;
+}
+
+
+
+.master-view {
+    padding-left: 41px !important;
+    background-image:var(--background);
+    background-size: cover;
+}
+
+.endlink a:hover{
+  background-color: #262626;
+}
+
+.endlink a {
+  color: white !important;
+  text-decoration: none !important;
+  background-color: #404040;
+  border-radius: 10px;
+  line-height: 30px;
+  padding-left: 8px;
+  height: 30px;
+  position: relative;
+  top: 5px;
+  right: 5px;
+  
+}
+
+
+.endlink{
+  background-color:  rgba(51, 51, 51, 0.0);
+}
+
+.block{
+  background-color: rgba(51, 51, 51, 0.0);
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+.head-bar {
+  background-color: rgba(51, 51, 51, 0.0);
+  border-bottom: 2px solid #FFF;
+
+}
+
+.head-bar div > a {
+  border-left: 0px !important;
+  background-color: #404040;
+  border-radius: 10px;
+  line-height: 30px;
+  padding-left: 8px;
+  height: 30px;
+  position: relative;
+  top: 5px;
+  right: 5px;
+}
+
+.head-bar div > a:hover {
+  background-color: #262626 !important;
+}
+
+.icon-pencil {
+position: relative;
+bottom: 5px;
+}
+
+.content-container {
+    background-image: var(--background);
+    background-size: cover;
+}
+
+b {
+font-family: "Arial Black";
+color: grey;
+}
