@@ -1,4 +1,4 @@
-@import url("https://gitcdn.xyz/repo/Gamerein/Reins-Magister-theme/master/r-magister.css");
+@import url("https://cdn.rawgit.com/Gamerein/Reins-Magister-theme/master/r-magister.css");
 
 /*user settings*/
 :root{
