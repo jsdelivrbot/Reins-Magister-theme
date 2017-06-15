@@ -39,6 +39,7 @@ a.secondary-button {
   padding: 8px;
   height: 30px;
   line-height: 15px;
+  text-align: center;
 }
 
 a.secondary-button:hover{
