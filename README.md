@@ -10,7 +10,8 @@ Paste the code<br />
 
 # Todo:
 * Make nav bar nicer with hover effects
-* fix head-bar on account page, and change text to show theme
 * fix hover on user settings and logoff button
-* Make all blue colors changeable
 * Change variable names
+* Change color of load-icons
+* fix white page on "inschrijven"
+* fix elo-bronnen blue tabs
