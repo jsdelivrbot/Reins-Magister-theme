@@ -10,7 +10,6 @@ Paste the code<br />
 
 # Todo:
 * Make nav bar nicer with hover effects
-* rmv blue arrow in cijfers
 * fix head-bar on account page, and change text to show theme
 * fix hover on user settings and logoff button
 * Make all blue colors changeable
