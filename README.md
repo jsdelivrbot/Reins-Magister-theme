@@ -13,3 +13,4 @@ Paste the code<br />
 * fix head-bar on account page, and change text to show theme
 * fix hover on user settings and logoff button
 * Make all blue colors changeable
+* Change variable names
