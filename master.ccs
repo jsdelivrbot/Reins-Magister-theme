@@ -2,8 +2,10 @@
 
 /*user settings*/
 :root{
-  --background: url("https://github.com/Gamerein/Reins-Magister-theme/raw/master/default-background.jpg");
-  --button-color: #404040;
+  --background: url("https://github.com/Gamerein/Reins-Magister-theme/raw/master/default-background.jpg"); /*replace with image url, must be direct!*/
+  /* these colors can be changed!*/
+  --button-color: #404040; 
   --button-hover: #262626;
   --border-color: #FFF;
 }
+/* goto https://www.w3schools.com/colors/colors_picker.asp to get color codes*/
