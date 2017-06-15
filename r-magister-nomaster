@@ -1,9 +1,12 @@
+/*user settings*/
 :root{
-  --background: url("https://github.com/Gamerein/Reins-Magister-theme/raw/master/default-background.jpg");
-  --button-color: #404040;
+  --background: url("https://github.com/Gamerein/Reins-Magister-theme/raw/master/default-background.jpg"); /*replace with image url, must be direct!*/
+  /* these colors can be changed!*/
+  --button-color: #404040; 
   --button-hover: #262626;
   --border-color: #FFF;
 }
+/* goto https://www.w3schools.com/colors/colors_picker.asp to get color codes*/
 
 /*login*/
 
@@ -49,7 +52,7 @@ a.secondary-button {
 }
 
 a.secondary-button:hover{
-  background-color: #262626;
+  background-color: var(--button-hover);
   border-radius: 5px;
   color: #FFF;
 }
@@ -62,20 +65,6 @@ a.secondary-button:hover{
   position: relative;
   bottom: 16px;
   right: 10px;
-}
-
-div.logo::after {
-  position: relative;
-  font-family: Arial;
-  margin-left: 10px;
-  font-size: 11px;
-  width: 300px;
-  box-sizing: border-box;
-  content: "Reins Magister theme: V1!";
-  font-weight: bold;
-  padding: 5px;
-  background-color: var(--button-hover);
-  border-radius: 20px;
 }
   
 .version.ng-isolate-scope > strong.ng-binding {
@@ -112,7 +101,7 @@ aside .asideTrigger:after{
 }
 
 li.ng-scope.asideTrigger.active a.ng-binding{
-  background-color:  #262626 !important;
+  background-color:  var(--button-hover) !important;
 }
 
 .icon-logo{
@@ -121,7 +110,7 @@ li.ng-scope.asideTrigger.active a.ng-binding{
 }
 
 .logo > a {
-  border: 0px solid #FFF !important;
+  border: 0px solid var(--border-color) !important;
 }
 
 .logo {
@@ -132,7 +121,7 @@ li.ng-scope.asideTrigger.active a.ng-binding{
 }
 
 .logo:hover{
-  background-color: #404040;
+  background-color: var(--button-color);
   border-radius: 5px;
 }
 
@@ -147,20 +136,19 @@ li.ng-scope.asideTrigger.active a.ng-binding{
 }
 
 .header a {
-  border-left: 2px solid #FFF
+  border-left: 2px solid var(--border-color);
 }
 
 .header{
-  /*position: absolute;*/
   background-color: rgba(51, 51, 51, 0.0);
-  border-bottom: 2px solid #FFF;
+  border-bottom: 2px solid var(--border-color);
 }
 
 .menu > ul {
   margin-top: 0px;
   box-sizing: border-box;
   padding-top: 40px;
-  border-top: 0px solid white;
+  border-top: 0px solid var(--border-color);
   width: 40px;
 }
 
@@ -175,18 +163,18 @@ li.ng-scope.asideTrigger.active a.ng-binding{
 
 .master-view {
     padding-left: 41px !important;
-    background-image:var(--background);
+    background-image: var(--background);
     background-size: cover;
 }
 
 .endlink a:hover{
-  background-color: #262626;
+  background-color: var(--button-hover);
 }
 
 .endlink a {
   color: white !important;
   text-decoration: none !important;
-  background-color: #404040;
+  background-color: var(--button-color);
   border-radius: 10px;
   line-height: 30px;
   padding-left: 8px;
@@ -204,19 +192,19 @@ li.ng-scope.asideTrigger.active a.ng-binding{
 
 .block{
   background-color: rgba(51, 51, 51, 0.0);
-  border: 2px solid #fff;
+  border: 2px solid var(--border-color);
   border-radius: 5px;
 }
 
 .head-bar {
   background-color: rgba(51, 51, 51, 0.0);
-  border-bottom: 2px solid #FFF;
+  border-bottom: 2px solid var(--border-hover);
 
 }
 
 .head-bar div > a {
   border-left: 0px !important;
-  background-color: #404040;
+  background-color: var(--button-color);
   border-radius: 10px;
   line-height: 30px;
   padding-left: 8px;
@@ -227,7 +215,7 @@ li.ng-scope.asideTrigger.active a.ng-binding{
 }
 
 .head-bar div > a:hover {
-  background-color: #262626 !important;
+  background-color: var(--button-hover) !important;
 }
 
 .icon-pencil {
@@ -243,4 +231,19 @@ bottom: 5px;
 b {
 font-family: "Arial Black";
 color: grey;
+}
+
+/* server checker*/
+div.logo::after {
+  position: relative;
+  font-family: Arial;
+  margin-left: 10px;
+  font-size: 11px;
+  width: 300px;
+  box-sizing: border-box;
+  content: "Reins Magister theme: V1.0.0!";
+  font-weight: bold;
+  padding: 5px;
+  background-color: var(--button-hover);
+  border-radius: 20px;
 }
