@@ -1,5 +1,5 @@
 # Reins-Magister-theme
-New stylesheet for Magister!
+New stylesheet for Magister 6!
 
 # How to use:
 Install the User CSS addon: [User CSS -chrome](https://chrome.google.com/webstore/detail/user-css/okpjlejfhacmgjkmknjhadmkdbcldfcb)<br />
