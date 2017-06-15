@@ -52,33 +52,32 @@ a.secondary-button:hover{
 }
   
 .version.ng-isolate-scope > span.ng-binding {
-  position: absolute;
-  visibility: hidden;
-  box-sizing: border-box;
-  width: 300px !important;
-  left: 400%;
-  top: 200%;
+  position: relative;
+  bottom: 16px;
+  right: 10px;
 }
 
-span.ng-binding::after {
-    /* box-sizing: border-box; */
-    visibility: visible;
-    content: "Reins Magister theme: V1!";
-    font-weight: bold;
-    /* position: relative; */
-    padding: 5px;
-    margin-left: 10px;
-    /* line-height: 20px; */
-    /* height: 30px; */
-    background-color: var(--button-hover);
-    border-radius: 20px;
+div.logo::after {
+  position: relative;
+  font-family: Arial;
+  margin-left: 10px;
+  font-size: 11px;
+  width: 300px;
+  box-sizing: border-box;
+  content: "Reins Magister theme: V1!";
+  font-weight: bold;
+  padding: 5px;
+  background-color: var(--button-hover);
+  border-radius: 20px;
 }
   
 .version.ng-isolate-scope > strong.ng-binding {
-  position: absolute;
-  width:400%;
-  box-sizing: border-box;
-  left: 110%;
+  width: 100px;
+  text-align: right !important;
+}
+
+.version.ng-isolate-scope{
+  padding-left: 100px;
 }
 
 /* end of login */
@@ -145,7 +144,7 @@ li.ng-scope.asideTrigger.active a.ng-binding{
 }
 
 .header{
-  position: absolute;
+  /*position: absolute;*/
   background-color: rgba(51, 51, 51, 0.0);
   border-bottom: 2px solid #FFF;
 }
