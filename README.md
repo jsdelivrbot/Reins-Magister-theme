@@ -15,3 +15,4 @@ Paste the code<br />
 * Change color of load-icons
 * fix white page on "inschrijven"
 * fix elo-bronnen blue tabs
+* Rmv magister 6 logo on login page
