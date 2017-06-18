@@ -6,12 +6,12 @@
 }
 
 .account-background2 {
-    background-image: url(https://wallpapershome.com/images/pages/pic_hs/10121.jpg)!important;
+    background-image: var(--background)!important;
     background-size: cover;
 }
 
 .account-background3 {
-    background-image: url(https://wallpapershome.com/images/pages/pic_hs/10121.jpg)!important;
+    background-image: var(--background)!important;
     background-size: cover;
 }
 
@@ -291,7 +291,7 @@ div.logo::after {
   font-size: 11px;
   width: 300px;
   box-sizing: border-box;
-  content: "Reins Magister theme: V1.0.2!";
+  content: "Reins Magister theme: V1.0.3!";
   font-weight: bold;
   padding: 5px;
   background-color: var(--button-hover);
