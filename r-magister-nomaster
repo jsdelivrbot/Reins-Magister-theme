@@ -16,12 +16,12 @@
 }
 
 .account-background2 {
-    background-image: url(https://wallpapershome.com/images/pages/pic_hs/10121.jpg)!important;
+    background-image: var(--background)!important;
     background-size: cover;
 }
 
 .account-background3 {
-    background-image: url(https://wallpapershome.com/images/pages/pic_hs/10121.jpg)!important;
+    background-image: var(--background)!important;
     background-size: cover;
 }
 
