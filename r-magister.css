@@ -224,6 +224,11 @@ font-family: "Arial Black";
 color: grey;
 }
 
+.msg-list .unread {
+    font-weight: normal;
+    border-left: 4px solid #000;
+}
+
 .widget .agenda-list li.alert span.time:before {
   color: #000 !Important;
 }
@@ -291,7 +296,7 @@ div.logo::after {
   font-size: 11px;
   width: 300px;
   box-sizing: border-box;
-  content: "Reins Magister theme: V1.0.3!";
+  content: "Reins Magister theme: V1.0.4!";
   font-weight: bold;
   padding: 5px;
   background-color: var(--button-hover);
