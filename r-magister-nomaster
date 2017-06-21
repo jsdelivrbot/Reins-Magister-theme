@@ -234,6 +234,11 @@ font-family: "Arial Black";
 color: grey;
 }
 
+.msg-list .unread {
+    font-weight: normal;
+    border-left: 4px solid #000;
+}
+
 .widget .agenda-list li.alert span.time:before {
   color: #000 !Important;
 }
