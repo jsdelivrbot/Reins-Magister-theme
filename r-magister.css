@@ -268,6 +268,20 @@ color: grey;
   color: #000 !important;
 }
 
+p.ng-binding {
+    background-color: var(--button-color);
+    color: #FFF !important;
+    border-radius: 10px;
+    font-family: monospace;
+}
+
+.ng-binding > p {
+    background-color: var(--button-color);
+    color: #FFF !important;
+    border-radius: 10px;
+    font-family: monospace;
+}
+
 /*cijfers*/
 .cijfers-k-grid.k-grid .grade.gemiddeldecolumn.insufficient{
   background-color:  #ff4d4d !important;
@@ -296,7 +310,7 @@ div.logo::after {
   font-size: 11px;
   width: 300px;
   box-sizing: border-box;
-  content: "Reins Magister theme: V1.0.4!";
+  content: "Reins Magister theme: V1.0.5!";
   font-weight: bold;
   padding: 5px;
   background-color: var(--button-hover);
