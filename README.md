@@ -16,3 +16,4 @@ Paste the code<br />
 * fix white page on "inschrijven"
 * fix elo-bronnen blue tabs
 * Rmv magister 6 logo on login page (new update on magister fucked this up)
+* Some grades arent styled
