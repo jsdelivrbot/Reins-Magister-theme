@@ -76,6 +76,21 @@ body {
     border-radius: 5px;
 }
 
+.header-user:hover {
+    background-color: rgba(255, 255, 255, 0.0) !important;
+}
+
+span#btn-user-settings:hover::before{
+      -webkit-animation-name: spinnerRotate;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+.logoff:hover {
+    background-color: rgba(255, 255, 255, 0.0) !important;
+}
+
 .asideTrigger.trigger-btn {
 border-left: 0px solid var(--border-color) !important;
 }
@@ -282,6 +297,12 @@ p.ng-binding {
     font-family: monospace;
 }
 
+@-webkit-keyframes spinnerRotate
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(360deg);}
+}
+
 /*cijfers*/
 .cijfers-k-grid.k-grid .grade.gemiddeldecolumn.insufficient{
   background-color:  #ff4d4d !important;
@@ -310,7 +331,7 @@ div.logo::after {
   font-size: 11px;
   width: 300px;
   box-sizing: border-box;
-  content: "Reins Magister theme: V1.0.5!";
+  content: "Reins Magister theme: V1.0.6!";
   font-weight: bold;
   padding: 5px;
   background-color: var(--button-hover);
