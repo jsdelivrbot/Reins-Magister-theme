@@ -9,6 +9,7 @@ Open the extention <br />
 Paste the code<br />
 
 # Todo:
+* Add nice pulsing effect to some buttons
 * Make nav bar nicer with hover effects
 * fix hover on user settings and logoff button
 * Change variable names
