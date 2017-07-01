@@ -158,6 +158,11 @@ li.ng-scope.asideTrigger.active a.ng-binding{
   width: 40px;
 }
 
+.message-content.ng-binding.ng-scope > p {
+    background-color: #FFF !important;
+    color: #000 !important;
+}
+
 .menu {
   position: absolute;
   top: 18px;
@@ -331,7 +336,7 @@ div.logo::after {
   font-size: 11px;
   width: 300px;
   box-sizing: border-box;
-  content: "Reins Magister theme: V1.0.6!";
+  content: "Reins Magister theme: V1.0.7!";
   font-weight: bold;
   padding: 5px;
   background-color: var(--button-hover);
