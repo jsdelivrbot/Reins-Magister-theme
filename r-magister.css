@@ -227,6 +227,7 @@ li.ng-scope.asideTrigger.active a.ng-binding{
 
 .head-bar div > a:hover {
   background-color: var(--button-hover) !important;
+  background: none;
 }
 
 .icon-pencil {
@@ -336,7 +337,7 @@ div.logo::after {
   font-size: 11px;
   width: 300px;
   box-sizing: border-box;
-  content: "Reins Magister theme: V1.0.7!";
+  content: "Reins Magister theme: V1.0.8!";
   font-weight: bold;
   padding: 5px;
   background-color: var(--button-hover);
