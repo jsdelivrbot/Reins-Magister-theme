@@ -303,6 +303,24 @@ p.ng-binding {
     font-family: monospace;
 }
 
+.toast em {
+    display: none;
+}
+
+.alert-toast span {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.alert-toast:hover {
+    font-size: 30px
+    border: 2px solid #d00005;
+}
+
+.toast .glyph:before, div.splash:before {
+    display: none;
+}
+
 @-webkit-keyframes spinnerRotate
 {
     from{-webkit-transform:rotate(0deg);}
@@ -337,7 +355,7 @@ div.logo::after {
   font-size: 11px;
   width: 300px;
   box-sizing: border-box;
-  content: "Reins Magister theme: V1.0.8!";
+  content: "Reins Magister theme: V1.0.9!";
   font-weight: bold;
   padding: 5px;
   background-color: var(--button-hover);
