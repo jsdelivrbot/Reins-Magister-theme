@@ -18,3 +18,4 @@ Paste the code<br />
 * fix elo-bronnen blue tabs
 * Rmv magister 6 logo on login page (new update on magister fucked this up)
 * Some grades arent styled
+* Add animation on wrong password
