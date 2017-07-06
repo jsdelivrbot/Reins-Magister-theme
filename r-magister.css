@@ -1,18 +1,8 @@
 /*login*/
 
-.account-background1 {
-    background-image: var(--background)!important;
-    background-size: cover;
-}
-
-.account-background2 {
-    background-image: var(--background)!important;
-    background-size: cover;
-}
-
-.account-background3 {
-    background-image: var(--background)!important;
-    background-size: cover;
+div.account-background1, div.account-background2, div.account-background3{
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none !important;
 }
 
 .account-dialog .title {
@@ -69,7 +59,9 @@ a.secondary-button:hover{
 
 /* end of login */
 body {
-  background-color: #333 !important;
+  background-image: var(--background) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header-user img {
@@ -94,7 +86,7 @@ span#btn-user-settings:hover::before{
 .asideTrigger.trigger-btn {
 border-left: 0px solid var(--border-color) !important;
 }
- span.text-icon{
+  span.text-icon{
   background-color: #333 !important;
 }
 
@@ -236,8 +228,9 @@ bottom: 5px;
 }
 
 .content-container {
-    background-image: var(--background);
-    background-size: cover;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none !important;
+  border: 2px solid var(--border-color);
 }
 
 b {
@@ -355,7 +348,7 @@ div.logo::after {
   font-size: 11px;
   width: 300px;
   box-sizing: border-box;
-  content: "Reins Magister theme: V1.0.9!";
+  content: "Reins Magister theme: V1.1.0!";
   font-weight: bold;
   padding: 5px;
   background-color: var(--button-hover);
