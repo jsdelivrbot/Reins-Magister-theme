@@ -10,19 +10,9 @@
 
 /*login*/
 
-.account-background1 {
-    background-image: var(--background)!important;
-    background-size: cover;
-}
-
-.account-background2 {
-    background-image: var(--background)!important;
-    background-size: cover;
-}
-
-.account-background3 {
-    background-image: var(--background)!important;
-    background-size: cover;
+div.account-background1, div.account-background2, div.account-background3{
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none !important;
 }
 
 .account-dialog .title {
@@ -79,17 +69,34 @@ a.secondary-button:hover{
 
 /* end of login */
 body {
-  background-color: #333 !important;
+  background-image: var(--background) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header-user img {
     border-radius: 5px;
 }
 
+.header-user:hover {
+    background-color: rgba(255, 255, 255, 0.0) !important;
+}
+
+span#btn-user-settings:hover::before{
+      -webkit-animation-name: spinnerRotate;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+.logoff:hover {
+    background-color: rgba(255, 255, 255, 0.0) !important;
+}
+
 .asideTrigger.trigger-btn {
 border-left: 0px solid var(--border-color) !important;
 }
- span.text-icon{
+  span.text-icon{
   background-color: #333 !important;
 }
 
@@ -151,6 +158,11 @@ li.ng-scope.asideTrigger.active a.ng-binding{
   padding-top: 40px;
   border-top: 0px solid var(--border-color);
   width: 40px;
+}
+
+.message-content.ng-binding.ng-scope > p {
+    background-color: #FFF !important;
+    color: #000 !important;
 }
 
 .menu {
@@ -217,6 +229,7 @@ li.ng-scope.asideTrigger.active a.ng-binding{
 
 .head-bar div > a:hover {
   background-color: var(--button-hover) !important;
+  background: none;
 }
 
 .icon-pencil {
@@ -225,8 +238,9 @@ bottom: 5px;
 }
 
 .content-container {
-    background-image: var(--background);
-    background-size: cover;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none !important;
+  border: 2px solid var(--border-color);
 }
 
 b {
@@ -278,6 +292,44 @@ color: grey;
   color: #000 !important;
 }
 
+p.ng-binding {
+    background-color: var(--button-color);
+    color: #FFF !important;
+    border-radius: 10px;
+    font-family: monospace;
+}
+
+.ng-binding > p {
+    background-color: var(--button-color);
+    color: #FFF !important;
+    border-radius: 10px;
+    font-family: monospace;
+}
+
+.toast em {
+    display: none;
+}
+
+.alert-toast span {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.alert-toast:hover {
+    font-size: 30px
+    border: 2px solid #d00005;
+}
+
+.toast .glyph:before, div.splash:before {
+    display: none;
+}
+
+@-webkit-keyframes spinnerRotate
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(360deg);}
+}
+
 /*cijfers*/
 .cijfers-k-grid.k-grid .grade.gemiddeldecolumn.insufficient{
   background-color:  #ff4d4d !important;
@@ -306,7 +358,7 @@ div.logo::after {
   font-size: 11px;
   width: 300px;
   box-sizing: border-box;
-  content: "Reins Magister theme: V1.0.4!";
+  content: "Reins Magister theme: V1.1.0!";
   font-weight: bold;
   padding: 5px;
   background-color: var(--button-hover);
