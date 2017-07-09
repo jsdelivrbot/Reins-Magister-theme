@@ -321,12 +321,12 @@ p.ng-binding {
 }
 
 /*cijfers*/
-.cijfers-k-grid.k-grid .grade.gemiddeldecolumn.insufficient{
+.cijfers-k-grid.k-grid .grade.gemiddeldecolumn.insufficient, .cijfers-k-grid.k-grid .grade.insufficient{
   background-color:  #ff4d4d !important;
   color: #FFF!important;
 }
 
-.cijfers-k-grid.k-grid .grade.gemiddeldecolumn{
+.cijfers-k-grid.k-grid .grade.gemiddeldecolumn, .grade{
   background-color:    #6ddf6d !important;
 }
 
