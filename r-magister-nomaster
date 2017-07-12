@@ -45,8 +45,8 @@ label.placeholder{
 }
 
 p.header__tenant-title.ng-binding {
-    box-sizing: border-box;
-    width: 400px;
+    margin-right: 0px;
+    text-align: center;
 }
 
 input#password {
@@ -76,6 +76,10 @@ input {
 
 .password__eye-icon{
   fill: var(--button-color);
+}
+
+.col-xs-12.col-sm-6.challenge-container > .logo {
+  visibility: hidden;
 }
 
 /*end of new login*/
@@ -446,7 +450,7 @@ div.logo::after {
   font-size: 11px;
   width: 300px;
   box-sizing: border-box;
-  content: "Reins Magister theme: V1.2.0!";
+  content: "Reins Magister theme: V1.2.1!";
   font-weight: bold;
   padding: 5px;
   background-color: var(--button-hover);
