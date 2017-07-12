@@ -1,5 +1,77 @@
-/*login*/
+/*new login*/
 
+.col-xs-12.col-sm-6.challenge-container {
+    position: relative;
+    right: 25%;
+    text-align: center;
+}
+
+button.primary-button.ripple{
+  background-color: var(--button-color);
+  animation: pulse 2s infinite;
+}
+
+button.primary-button.ripple:hover{
+  background-color: var(--button-hover);
+  color: #FFF;
+  transition: all 0.3s ease-in-out 0s;
+  animation: pulse 2s infinite;
+} 
+path{
+    fill: var(--border-color);
+}
+
+label.placeholder{
+  color: var(--button-color) !important;
+}
+
+.podium > .header{ 
+  border-bottom: none;
+}
+
+.podium >.header > div.header__tenant.ng-scope {
+    border-bottom: none;
+    text-decoration: underline;
+}
+
+p.header__tenant-title.ng-binding {
+    box-sizing: border-box;
+    width: 400px;
+}
+
+input#password {
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+input {
+    color: var(--button-hover);
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.container-fluid.app-container{
+  color: #FFF;
+  background-color: transparent;
+}
+
+.row.row-no-padding{ 
+  background-color: transparent;
+}
+
+.splash {
+  background-image: none;
+  background-color: transparent;
+}
+
+.password__eye-icon{
+  fill: var(--button-color);
+}
+
+/*end of new login*/
+
+/*old login*/
+/*
 div.account-background1, div.account-background2, div.account-background3{
   background-color: rgba(0, 0, 0, 0);
   background-image: none !important;
@@ -56,10 +128,11 @@ a.secondary-button:hover{
 .version.ng-isolate-scope{
   padding-left: 100px;
 }
-
-/* end of login */
+*/
+/* end of old login */
 body {
   background-image: var(--background) !important;
+  background-color: var(--button-color);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -286,7 +359,7 @@ p.ng-binding {
     background-color: var(--button-color);
     color: #FFF !important;
     border-radius: 10px;
-    font-family: monospace;
+    font-family: monospace
 }
 
 .ng-binding > p {
@@ -314,6 +387,21 @@ p.ng-binding {
     display: none;
 }
 
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 #0096db;
+    box-shadow: 0 0 0 0 var(--button-hover);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(64,64,64, 0);
+      box-shadow: 0 0 0 15px rgba(64,64,64, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(64,64,64, 0);
+      box-shadow: 0 0 0 0 rgba(64,64,64, 0);
+  }
+}
+
 @-webkit-keyframes spinnerRotate
 {
     from{-webkit-transform:rotate(0deg);}
@@ -321,12 +409,12 @@ p.ng-binding {
 }
 
 /*cijfers*/
-.cijfers-k-grid.k-grid .grade.gemiddeldecolumn.insufficient, .cijfers-k-grid.k-grid .grade.insufficient{
+.cijfers-k-grid.k-grid .grade.gemiddeldecolumn.insufficient{
   background-color:  #ff4d4d !important;
   color: #FFF!important;
 }
 
-.cijfers-k-grid.k-grid .grade.gemiddeldecolumn, .grade{
+.cijfers-k-grid.k-grid .grade.gemiddeldecolumn{
   background-color:    #6ddf6d !important;
 }
 
@@ -348,7 +436,7 @@ div.logo::after {
   font-size: 11px;
   width: 300px;
   box-sizing: border-box;
-  content: "Reins Magister theme: V1.1.1!";
+  content: "Reins Magister theme: V1.2.0!";
   font-weight: bold;
   padding: 5px;
   background-color: var(--button-hover);
