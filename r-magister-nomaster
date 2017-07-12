@@ -389,7 +389,7 @@ p.ng-binding {
 }
 
 .alert-toast:hover {
-    font-size: 30px
+    font-size: 30px;
     border: 2px solid #d00005;
 }
 
