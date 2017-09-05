@@ -431,6 +431,107 @@ p.ng-binding {
 .menu li.active, .menu li.highlight-menu.active, .menu li.active > a:hover {
   background-color: var(--button-color) !important;
 }
+/*6/9 grote transparantie update in agenda en afsprakenlijst*/
+/*laatste cijfer window*/.list.arrow-list > li, #vandaag-container .grade-widget ul{
+  background:transparent;
+}
+
+.content{
+  background-color:transparent !important;
+}
+
+.widget li a {
+    color: white !important;
+}
+
+.widget li {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.widget li:hover, .alert a:hover {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+li.alert{
+  background-color:rgba(255, 255, 255, 0.4) !important;
+  border-left: 4px solid #fff;
+}
+
+.widget .agenda-list li.alert span.time:before, .widget .agenda-list li.alert span.time:after {
+  color: white !important;
+}
+
+.widget span.nrblock {
+  background-color: white;
+  color: #000;
+}
+
+.alert span.nrblock{
+  color: black;
+  background-color: white !important;
+}
+
+/*in bijv huiswerk*/.comment.ng-binding, .attachment-bar:before {
+  color: #fff;
+}
+
+/*afsprakenlijst*/.sm-grid.k-grid .k-grid-content tbody, .sm-grid.k-grid .k-grid-content, .k-widget, .afsprakenlijst-container .main > .content-container{
+  background:transparent;
+}
+
+.sm-grid.k-grid .k-grid-content tr{
+    transition: background-color .7s ease;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.ng-scope.k-state-selected{
+  background: rgba(255, 255, 255, 0.5) !important;
+}
+
+.sm-grid.k-grid .k-grid-content tr:hover{
+  background: rgba(255, 255, 255, 0.3);
+}
+
+tr, td {
+    height: 35px;
+    font-size: 13px !important;
+}
+
+td[colspan="7"] {
+    background: rgba(51, 51, 51, 0.3);
+}
+
+.sm-grid.k-grid .k-grid-content .nrblock{
+  color: black !important;
+  background-color: white;
+}
+
+.sm-grid.k-grid .k-grid-content tbody span {
+  color: rgb(240, 240, 240);
+}
+
+.ng-scope.k-state-selected span{
+  color: rgb(65, 86, 119) !important;
+}
+
+dl.list-dl{
+  background: transparent;
+}
+
+dl.list-dl dt, dl.list-dl dd{
+  color: #fff;
+}
+
+aside .tabs li a{
+  transition: color 0.5s ease;
+  background-color: rgba(10, 10, 10, 0.3);
+  color: #fff;
+}
+
+aside .tabs li:hover a{
+  color: grey;
+}
+/* 6/9 */
 
 /* version checker*/
 div.logo::after {
@@ -440,7 +541,7 @@ div.logo::after {
   font-size: 11px;
   width: 300px;
   box-sizing: border-box;
-  content: "Reins Magister theme: V1.2.2!";
+  content: "Reins Magister theme: V1.2.4!";
   font-weight: bold;
   padding: 5px;
   background-color: var(--button-hover);
