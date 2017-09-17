@@ -450,6 +450,7 @@ p.ng-binding {
 
 .widget li:hover, .alert a:hover {
     background-color: rgba(255, 255, 255, 0.6) !important;
+    transition: background-color .7s ease;
 }
 
 li.alert{
@@ -537,6 +538,10 @@ aside .tabs li:hover a{
   border: none;
 }
 
+.head-bar div > a:hover, .endlink a:hover {
+  animation: pulse 2s infinite;
+}
+
 /* version checker*/
 div.logo::after {
   position: relative;
@@ -545,7 +550,7 @@ div.logo::after {
   font-size: 11px;
   width: 300px;
   box-sizing: border-box;
-  content: "Reins Magister theme: V1.2.5!";
+  content: "Reins Magister theme: V1.2.6!";
   font-weight: bold;
   padding: 5px;
   background-color: var(--button-hover);
