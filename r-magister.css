@@ -533,6 +533,10 @@ aside .tabs li:hover a{
 }
 /* 6/9 */
 
+.content-container{
+  border: none;
+}
+
 /* version checker*/
 div.logo::after {
   position: relative;
@@ -541,7 +545,7 @@ div.logo::after {
   font-size: 11px;
   width: 300px;
   box-sizing: border-box;
-  content: "Reins Magister theme: V1.2.4!";
+  content: "Reins Magister theme: V1.2.5!";
   font-weight: bold;
   padding: 5px;
   background-color: var(--button-hover);
