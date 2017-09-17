@@ -9,13 +9,4 @@ Open the extention <br />
 Paste the code<br />
 
 # Todo:
-* Add nice pulsing effect to some buttons
-* Make nav bar nicer with hover effects
-* fix hover on user settings and logoff button
-* Change variable names
-* Change color of load-icons
-* fix white page on "inschrijven"
-* fix elo-bronnen blue tabs
-* Rmv magister 6 logo on login page (new update on magister fucked this up)
-* Some grades arent styled
-* Add animation on wrong password
+* Restyle nav bar
