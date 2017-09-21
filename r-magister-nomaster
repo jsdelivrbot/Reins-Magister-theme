@@ -1,3 +1,4 @@
+/*Warning: may not be the newest update*/
 /*user settings*/
 :root{
   --background: url("https://github.com/Gamerein/Reins-Magister-theme/raw/master/default-background.jpg"); /*replace with image url, must be direct!*/
@@ -8,7 +9,9 @@
 }
 /* goto https://www.w3schools.com/colors/colors_picker.asp to get color codes*/
 
-/*new login*/
+/*Warning: this version can be behind check https://github.com/Gamerein/Reins-Magister-theme/edit/master/r-magister for the latest update*/
+ 
+ /*new login*/
 
 .col-xs-12.col-sm-6.challenge-container {
     position: relative;
@@ -437,10 +440,6 @@ p.ng-binding {
 }
 /* end of cijfers*/
 
-/*nav-bar*/
-.menu li.active, .menu li.highlight-menu.active, .menu li.active > a:hover {
-  background-color: var(--button-color) !important;
-}
 /*6/9 grote transparantie update in agenda en afsprakenlijst*/
 /*laatste cijfer window*/.list.arrow-list > li, #vandaag-container .grade-widget ul{
   background:transparent;
@@ -460,6 +459,7 @@ p.ng-binding {
 
 .widget li:hover, .alert a:hover {
     background-color: rgba(255, 255, 255, 0.6) !important;
+    transition: background-color .7s ease;
 }
 
 li.alert{
@@ -541,11 +541,105 @@ aside .tabs li a{
 aside .tabs li:hover a{
   color: grey;
 }
-/* 6/9 */
+/* 6/9 end */
 
 .content-container{
   border: none;
 }
+
+.head-bar div > a:hover, .endlink a:hover {
+  animation: pulse 2s infinite;
+}
+
+/*Nav menu*/
+.menu > ul a{
+  border: none;
+}
+
+.menu > ul > li{
+  border-radius: 50px;
+  background-color: var(--button-color);
+  position: relative;
+  right: 40px;
+  width: 50px;
+  height: 50px;
+}
+
+.menu > ul > li > a{
+ background: none;
+ text-align: center;
+  padding-left: 8px;
+  padding-top: 7px;
+  visibility: hidden;
+}
+
+.menu > ul > li:hover > a{
+  visibility: visible;
+}
+
+.menu > ul > li > a:hover {
+   background: none !important;
+   visibility: visible;
+}
+
+.menu > ul > li:hover{
+  margin: 15px;
+  right: 20px;
+  width: 60px !important;
+  height: 60px !important;
+  transition: 0.5s;
+}
+
+.menu li:after{
+  position: relative;
+  background: black;
+  padding: 2px 5px 2px 5px;
+  border-radius: 10px;
+  left: 65px;
+  bottom: 35px;
+}
+
+.menu li:nth-child(2):hover:after{
+  content: "Vandaag"
+}
+
+.menu li:nth-child(3):hover:after{
+  content: "Agenda"
+}
+
+.menu > ul > li:nth-child(4):hover:after{
+  content: "Afwezigheid"
+}
+
+.menu li:nth-child(5):hover:after{
+  content: "Cijfers"
+}
+
+.menu li:nth-child(6):hover:after{
+  content: "Berichten"
+}
+
+.menu li:nth-child(7):hover:after{
+  content: "ELO"
+}
+
+.menu li:nth-child(8):hover{
+  content: "Leermiddelen"
+}
+
+.menu > ul > li > ul{
+  background: rgba(0, 0, 0, 0.7);
+  position: relative;
+  left: 60px;
+}
+
+.menu > ul > li > ul > li > ul{
+  background: rgba(0, 0, 0, 0.7);
+  position: relative;
+  left: 190px;
+  top: -134px;
+}
+/*Nav menu end*/
 
 /* version checker*/
 div.logo::after {
@@ -555,7 +649,7 @@ div.logo::after {
   font-size: 11px;
   width: 300px;
   box-sizing: border-box;
-  content: "Reins Magister theme: V1.2.5!";
+  content: "Reins Magister theme: V1.3.1!";
   font-weight: bold;
   padding: 5px;
   background-color: var(--button-hover);
