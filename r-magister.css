@@ -594,7 +594,7 @@ aside .tabs li:hover a{
   content: "Agenda"
 }
 
-.menu li:nth-child(4):hover:after{
+.menu > ul > li:nth-child(4):hover:after{
   content: "Afwezigheid"
 }
 
@@ -617,8 +617,7 @@ aside .tabs li:hover a{
 .menu > ul > li > ul{
   background: rgba(0, 0, 0, 0.7);
   position: relative;
-  left: 75px;
-  top: -100px;
+  left: 60px;
 }
 
 .menu > ul > li > ul > li > ul{
@@ -637,7 +636,7 @@ div.logo::after {
   font-size: 11px;
   width: 300px;
   box-sizing: border-box;
-  content: "Reins Magister theme: V1.3.0!";
+  content: "Reins Magister theme: V1.3.1!";
   font-weight: bold;
   padding: 5px;
   background-color: var(--button-hover);
