@@ -625,7 +625,7 @@ aside .tabs li:hover a{
   top: -134px;
 }
 
-.menu li.active, .menu li.highlight-menu.active, .menu li.active > a:hover {
+.menu li.active, .menu li.highlight-menu.active {
     background-color: var(--button-hover) !important;
 }
 
