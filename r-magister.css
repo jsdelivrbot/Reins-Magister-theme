@@ -586,11 +586,11 @@ aside .tabs li:hover a{
   bottom: 35px;
 }
 
-.menu li:nth-child(2):hover:after{
+.menu > ul > li:nth-child(2):hover:after{
   content: "Vandaag"
 }
 
-.menu li:nth-child(3):hover:after{
+.menu > ul > li:nth-child(3):hover:after{
   content: "Agenda"
 }
 
@@ -598,20 +598,17 @@ aside .tabs li:hover a{
   content: "Afwezigheid"
 }
 
-.menu li:nth-child(5):hover:after{
+.menu > ul > li:nth-child(5):hover:after{
   content: "Cijfers"
 }
 
-.menu li:nth-child(6):hover:after{
+.menu > ul > li:nth-child(7):hover:after{
   content: "Berichten"
 }
 
-.menu li:nth-child(7):hover:after{
-  content: "ELO"
-}
 
-.menu li:nth-child(8):hover{
-  content: "Leermiddelen"
+.menu > ul > li:nth-child(9):hover:after{
+  content: "Leermiddelen";
 }
 
 .menu > ul > li > ul{
@@ -624,9 +621,14 @@ aside .tabs li:hover a{
 .menu > ul > li > ul > li > ul{
   background: rgba(0, 0, 0, 0.7);
   position: relative;
-  left: 190px;
+  left: 184px;
   top: -134px;
 }
+
+.menu li.active, .menu li.highlight-menu.active, .menu li.active > a:hover {
+    background-color: var(--button-hover) !important;
+}
+
 /*Nav menu end*/
 
 /* 18/10/2017 login fix*/
@@ -642,7 +644,7 @@ div.logo::after {
   font-size: 11px;
   width: 300px;
   box-sizing: border-box;
-  content: "Reins Magister theme: V1.3.3!";
+  content: "Reins Magister theme: V1.3.4!";
   font-weight: bold;
   padding: 5px;
   background-color: var(--button-hover);
