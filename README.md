@@ -9,4 +9,6 @@ Open the extention <br />
 Paste the code<br />
 
 # Todo:
-* Restyle nav bar
+* Make main text-color changeable.
+* Change the variable names
+* Fix the variables on userstyles
