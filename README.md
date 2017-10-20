@@ -12,3 +12,4 @@ Paste the code<br />
 * Make main text-color changeable.
 * Change the variable names
 * Fix the variables on userstyles
+* Fix the messages page
