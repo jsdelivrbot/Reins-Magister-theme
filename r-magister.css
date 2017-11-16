@@ -488,6 +488,23 @@ aside .tabs li:hover a {
 .image-carrousel {
     visibility: hidden;
 }
+
+.background-rood .color-label {
+    background-color: red;
+}
+.background-blauw .color-label {
+    background-color: blue;
+}
+.background-groen .color-label {
+    background-color: green;
+}
+.background-geel .color-label {
+    background-color: yellow;
+}
+.background-donker-oranje .color-label {
+    background-color: orange;
+}
+
 /* version checker*/
 
 div.logo::after {
