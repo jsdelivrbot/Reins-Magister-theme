@@ -10,7 +10,7 @@ Paste the code<br />
 
 ## Or:
 Install via [stylish](https://userstyles.org/styles/143899/rein-s-magister-theme)<br />
-Note that this version often is not the newest version.<br />
+Note that this version may not be up-to-date<br />
 
 ## Bugs:
 Discord:`Gamerein#0504`
