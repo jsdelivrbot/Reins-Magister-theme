@@ -367,6 +367,7 @@ p.ng-binding {
 }
 
 .ng-binding > p {
+    padding: 4px !important;
     background-color: var(--button-color);
     color: #FFF !important;
     border-radius: 10px;
@@ -644,7 +645,7 @@ div.logo::after {
   font-size: 11px;
   width: 300px;
   box-sizing: border-box;
-  content: "Reins Magister theme: V1.3.4!";
+  content: "Reins Magister theme: V1.3.5!";
   font-weight: bold;
   padding: 5px;
   background-color: var(--button-hover);
