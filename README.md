@@ -8,8 +8,9 @@ Go to your Magister page <br />
 Open the extention <br />
 Paste the code<br />
 
-# Todo:
-* Make main text-color changeable.
-* Change the variable names
-* Fix the variables on userstyles
-* Fix the messages page
+# Or:
+Install via [stylish](https://userstyles.org/styles/143899/rein-s-magister-theme)<br />
+Note that this version often is not the newest version.<br />
+
+# Bugs:
+Discord:`Gamerein#0504`
