@@ -144,6 +144,7 @@ li.ng-scope.asideTrigger.active a.ng-binding {
     top: 18px;
     border-radius: 5px;
     background-color: rgba(51, 51, 51, 0.0) !important;
+    z-index: 0;
 }
 .master-view {
     padding-left: 41px !important;
@@ -504,6 +505,10 @@ aside .tabs li:hover a {
     background-color: orange;
 }
 
+.head-bar {
+    z-index: 2;
+}
+
 /* version checker*/
 
 div.logo::after {
@@ -513,7 +518,7 @@ div.logo::after {
     font-size: 11px;
     width: 300px;
     box-sizing: border-box;
-    content: "Reins Magister theme: V1.3.5!";
+    content: "Reins Magister theme: V1.3.6!";
     font-weight: bold;
     padding: 5px;
     background-color: var(--button-hover);
