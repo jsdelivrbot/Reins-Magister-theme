@@ -249,7 +249,6 @@ p.ng-binding {
 }
 .ng-binding > p {
     padding: 4px !important;
-    background-color: var(--button-color);
     color: #FFF !important;
     border-radius: 10px;
     font-family: monospace;
@@ -509,6 +508,50 @@ aside .tabs li:hover a {
     z-index: 2;
 }
 
+/* 31/1/18*/
+.clearfix.user-content
+ {
+    background-color: rgba(51, 51, 51, 0.3) !important;
+  color: #fff;
+}
+
+ul.sources.ng-scope li.ng-scope{
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  color: #000;
+}
+
+#studiewijzer-detail-container .coloring-rood > div, #studiewijzer-detail-container .coloring-rood > ul {
+  border-left: 4px solid red;
+}
+
+#studiewijzer-detail-container .coloring-blauw > div, #studiewijzer-detail-container .coloring-blauw > ul {
+  border-left: 4px solid blue;
+}
+
+#studiewijzer-detail-container .coloring-groen > div, #studiewijzer-detail-container .coloring-groen > ul {
+   border-left: 4px solid green;
+}
+
+#studiewijzer-detail-container .coloring-geel > div, #studiewijzer-detail-container .coloring-geel > ul {
+   border-left: 4px solid yellow;
+}
+
+#studiewijzer-detail-container .coloring-donker-oranje > div, #studiewijzer-detail-container .coloring-donker-oranje > ul {
+   border-left: 4px solid orange;
+}
+
+#studiewijzer-container div.studiewijzer-list.normaal > ul > li, #studiewijzer-container div.studiewijzer-list.normaal > ul > li > a {
+  color: #fff;
+  border: 1px solid var(--border-color) !important;
+ background-color: rgba(51, 51, 51, 0.2);
+ border-radius: 0px;
+}
+
+#studiewijzer-container div.studiewijzer-list > ul > li > a > span {
+  border-right:3px solid var(--button-color)
+}
+/*31/1/18*/
+
 /* version checker*/
 
 div.logo::after {
@@ -518,7 +561,7 @@ div.logo::after {
     font-size: 11px;
     width: 300px;
     box-sizing: border-box;
-    content: "Reins Magister theme: V1.3.6!";
+    content: "Reins Magister theme: V1.3.7!";
     font-weight: bold;
     padding: 5px;
     background-color: var(--button-hover);
