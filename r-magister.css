@@ -609,6 +609,15 @@ div#bestanden li:nth-last-child(odd){
 }
 
 /*end 0/2/18*/
+
+.widget .list li, .endlink {
+  border-top: 1px solid var(--border-color) !important;
+}
+
+.block h3, .widget .list, #vandaag-container .grade-widget ul {
+  border-bottom: 1px solid var(--border-color);
+}
+
 /* version checker*/
 
 div.logo::after {
