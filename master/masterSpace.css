@@ -2,7 +2,8 @@
 
 /*user settings*/
 :root{
-  --background: url("https://raw.githubusercontent.com/Gamerein/Reins-Magister-theme/master/master/backgroundSpace.jpg");
+  --background: url("https://raw.githubusercontent.com/Gamerein/Reins-Magister-theme/master/backgrounds/backgroundSpace.jpg"); /*replace with image url, must be direct!*/
+  /* these colors can be changed!*/
   --button-color: #404040; 
   --button-hover: #262626;
   --border-color: #FFF;
