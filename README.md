@@ -13,4 +13,4 @@ Install via [stylish](https://userstyles.org/styles/143899/rein-s-magister-theme
 Note that this version may not be up-to-date<br />
 
 ## Bugs:
-Discord:`Gamerein#0504`
+Discord:`LevitatingBusinessMan#0504`
