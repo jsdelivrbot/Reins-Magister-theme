@@ -1,0 +1,10 @@
+@import url("https://cdn.rawgit.com/Gamerein/Reins-Magister-theme/master/r-magister.css");
+
+/*user settings - can be changed*/
+:root{
+  --background: url("https://raw.githubusercontent.com/Gamerein/Reins-Magister-theme/master/master/backgroundBlue.jpg");
+  --button-color: #2780e6; 
+  --button-hover: #1e63b3;
+  --border-color: #4894ea;
+}
+/* goto https://www.w3schools.com/colors/colors_picker.asp to get color codes*/
