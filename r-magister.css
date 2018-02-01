@@ -550,7 +550,7 @@ ul.sources.ng-scope li.ng-scope{
 #studiewijzer-container div.studiewijzer-list > ul > li > a > span {
   border-right:3px solid var(--button-color)
 }
-/*31/1/18*/
+/* end 31/1/18*/
 
 ::-moz-selection {
     background: var(--border-color);
@@ -559,7 +559,56 @@ ul.sources.ng-scope li.ng-scope{
 ::selection {
     background: var(--border-color);
 }
+/*0/2/18*/
 
+#bronnen-container .bronnen-quota-label {
+  background: rgba(51, 51, 51, 0.1) !important;
+  color: #fff;
+  font-weight: 100;
+  font-size: 14px;
+}
+div#afsprakenLijst tr.ng-scope:nth-last-child(odd) {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+aside .tabs li.active a {
+  background-color: var(--button-color);
+}
+
+div#bestanden li:nth-last-child(odd){
+  background: rgba(255, 255, 255, 0.14)
+}
+
+.sources li ul {
+  background: transparent;
+}
+
+.rest-column.ng-isolate-scope, div#mappen {
+  background: rgba(51, 51, 51, 0.3);
+}
+
+.block b {
+    color: #fff;
+}
+
+.block h3 {
+  background: rgba(51, 51, 51, 0.1) !important;
+  color: #fff;
+}
+
+.column-container li.selected, .column-container li.checked, .sources li.selected > a{
+  background: rgba(255, 255, 255, 0.2) !important;
+}
+
+.sources li.selected > a:after, .sources li:hover > a:after {
+  color: var(--button-color);
+}
+
+.sources li:hover, .sources li.selected  {
+  border-top: 1px solid var(--border-color);
+}
+
+/*end 0/2/18*/
 /* version checker*/
 
 div.logo::after {
@@ -569,7 +618,7 @@ div.logo::after {
     font-size: 11px;
     width: 300px;
     box-sizing: border-box;
-    content: "Reins Magister theme: V1.3.8!";
+    content: "Reins Magister theme: V1.3.9!";
     font-weight: bold;
     padding: 5px;
     background-color: var(--button-hover);
